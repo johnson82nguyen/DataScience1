@@ -69,11 +69,11 @@ class DBHelper:
 
 # Main coding
 
-helper = DBHelper()
+# helper = DBHelper()
 
 # helper.delete_user(28)
-helper.update_user(27, 'asianchad', 'f')
-helper.fetch_all()
+# helper.update_user(27, 'asianchad', 'f')
+# helper.fetch_all()
 
 
 # helper.insert_user('25', 'Brewce_Wayne', '111.162.103.11', 'T')
