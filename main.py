@@ -1,13 +1,13 @@
 from pysql import DBHelper
 
 # From {file_name} import {functions}
-
 # From {otherfolder.filename} import {functions}
 
 
 def main():
     db = DBHelper()
     print("************** WELCOME TO PYSQL *****************")
+
     while True:
         
         print("PRESS 1 TO INSERT USER")
@@ -39,10 +39,9 @@ def main():
                 case 5:
                     break
                 case default:
-                    print("Insert a number") 
+                    print("Insert a number ") 
         except Exception as e:
-            print(e)
-            print("Please enter in a real number")
+            print("EXCEPTION CAUGHT", e)
 
 
 
